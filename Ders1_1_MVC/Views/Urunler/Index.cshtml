@@ -5,7 +5,7 @@
     bu alan bir HTML kod alanıdır ve sayfa uzantısı .cshtml ile biter
     cs=> csharp - c# anlamına gelir
     html = hyper text markup language= web sayfalarının yapısını oluşturulan dil
-    cshtml = c# kodları ile html kodlarının bir arada kullanıldığı dosya türüdür
+    cshtml = c# kodları ile html kodlarının bir arada kullanıldığı dosya türüdür. MVC mimarisinde view'ların uzantısı .cshtml'dir.
 -->
 
 <!DOCTYPE html>
@@ -14,7 +14,21 @@
         <title>Ürünler</title>
     </head>
     <body>
+        @* @ işareti ile bir yorum satırı oluşturabiliriz. @işaretinden sonra gelen her şey yorum olarak kabul edilir ve tarayıcı tarafından göz ardı edilir ve kapanması yıldız(*)@ ile gibidir *@
         <h1>Ürünler sayfası</h1>
         <p>Bu sayfa ürünlerin index sayfasıdır</p>
+
+        <div>
+            <form method="post" action="/Urunler/Index">
+                <input type="text" name="isim" placeholder="isminizi giriniz"/>
+
+                <input type="text" name="soyisim" placeholder="soyadınızı giriniz"/>
+
+                <input type="submit" value="gönder"/>
+                @* <button type="submit" value="gönder"></button> *@
+            </form>
+
+
+        </div>
     </body>
 </html>
