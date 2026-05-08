@@ -16,6 +16,6 @@ namespace Ders1_1_MVC.Controllers
             return View();
         }
 
-        
+
     }
 }
