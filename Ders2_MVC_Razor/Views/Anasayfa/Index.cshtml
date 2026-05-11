@@ -1,5 +1,4 @@
-﻿
-@{
+﻿@{
     Layout = null;
 }
 
@@ -9,7 +8,108 @@
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>Index</title>
+    <link href="~/lib/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
 </head>
 <body>
+
+    <!--
+        Razor kullanma biçimleri
+        1) kod bloklarına göre yazmak
+        2)birden fazla kod bloğu varsa tek tek yazmak yerine tek bir kod bloğu açıp içine yazmak
+
+    -->
+    <div>
+        <!--1) Kod bloklarına göre -->
+        <h5>kod bloklarına göre c# kodunu HTML içinde yazmak</h5>
+        <ul>
+
+
+
+            @for (int i = 0; i < 5; i++)
+            {
+                <li>@(i + 1)-listesi </li>
+            }
+            <hr />
+            <table class="table table-bordered">
+                <thead>
+                    <tr>
+                        <td>#</td>
+                        <td>Adı</td>
+                        <td>Soyadı</td>
+                        <td>Telefon</td>
+                        <td>Adres</td>
+                    </tr>
+
+                </thead>
+                <tbody>
+                    @for (int i = 0; i < 5; i++)
+                    {
+                        string[] isimler = { "Selim", "Ahmet", "Mehmet", "Ayşe", "Fatma" };
+                        <tr>
+                            <td>@(i + 1)</td>
+                            <td>@isimler[i]</td>
+                            <td>Kalaylı</td>
+                            <td>0544 444 33 22</td>
+                            <td>Kartal İstanbul</td>
+                        </tr>
+                    }
+
+                </tbody>
+
+
+            </table>
+
+        </ul>
+        <hr />
+        <h5>Çoklu c# kodunu HTML içinde yazmak</h5>
+        @{
+            <a>
+                @{
+                    int a = 1;
+                }
+            </a>
+            for (int i = 0; i < 5; i++)
+            {
+                int x = i + 1;
+                <li>@(i + 1)-listesi </li>
+            }
+
+            if (true)
+            {
+                int s = 90;
+                double[] fiyatListesi = { 10.5, 20.5, 30.5, 40.5, 50.5 };
+            }
+
+            int[] sayilar = { 1, 2, 3, 4, 5 };
+            <div>
+
+                @if (sayilar[0] == 1)
+                {
+
+                }
+
+                @{
+                    switch (sayilar)
+                    {
+                        default:
+
+                            break;
+
+                    }
+
+                    decimal gezegenMesafesi = 1000.5m;
+                }
+
+            </div>
+
+            double[] fiyatlar = { 10.5, 20.5, 30.5, 40.5, 50.5 };
+
+        }
+
+
+
+
+    </div>
+
 </body>
 </html>
