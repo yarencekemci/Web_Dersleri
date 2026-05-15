@@ -7,5 +7,5 @@
   </Folder>
   <Project Path="Ders1_1_MVC/Ders1_1_MVC.csproj" />
   <Project Path="Ders2_MVC_Razor/Ders2_MVC_Razor.csproj" Id="6b5b2aca-d4f2-42a3-b8c8-007f1b511053" />
-  <Project Path="Ders2_MVC_Razor_Tekrar/Ders2_MVC_Razor_Tekrar.csproj" Id="28c72da5-87c6-4a52-ac37-648428f387c7" />
+  <Project Path="Ders3_1_Layout/Ders3_1_Layout.csproj" Id="604d32fb-01d4-4894-afde-4e3df4ac8d3a" />
 </Solution>

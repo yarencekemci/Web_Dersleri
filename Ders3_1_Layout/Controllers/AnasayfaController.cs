@@ -1,15 +1,10 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Ders2_MVC_Razor_Tekrar.Controllers
+namespace Ders3_1_Layout.Controllers
 {
     public class AnasayfaController : Controller
     {
         public IActionResult Index()
-        {
-            return View();
-        }
-
-        public IActionResult Menu()
         {
             return View();
         }

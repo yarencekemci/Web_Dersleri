@@ -1,4 +1,4 @@
-namespace Ders2_MVC_Razor_Tekrar
+namespace Ders3_1_Layout
 {
     public class Program
     {
