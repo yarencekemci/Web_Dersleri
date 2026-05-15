@@ -1,4 +1,10 @@
 <Solution>
+  <Folder Name="/KatmanliMimariler/">
+    <Project Path="Ders4_1_BLL/Ders4_1_BLL.csproj" Id="53c6a72c-8326-4e58-9920-25df82cd0c0a" />
+    <Project Path="Ders4_1_Core/Ders4_1_Core.csproj" Id="1c1ce507-0195-4b0f-a4e1-945ee34f998b" />
+    <Project Path="Ders4_1_DLL/Ders4_1_DLL.csproj" Id="9ce10eed-09d9-4eba-9093-3eedc0eb9d35" />
+    <Project Path="Ders4_1_Web/Ders4_1_Web.csproj" Id="a0310b4f-bb89-410f-ab33-d1e1a08f42e3" />
+  </Folder>
   <Project Path="Ders1_1_MVC/Ders1_1_MVC.csproj" />
   <Project Path="Ders2_MVC_Razor/Ders2_MVC_Razor.csproj" Id="6b5b2aca-d4f2-42a3-b8c8-007f1b511053" />
   <Project Path="Ders2_MVC_Razor_Tekrar/Ders2_MVC_Razor_Tekrar.csproj" Id="28c72da5-87c6-4a52-ac37-648428f387c7" />
