@@ -1,0 +1,43 @@
+﻿@using Ders4_1_DLL.EntitiesTablolar;
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<form asp-action="Index" method="post" asp-controller="Urunler">
+    <h3>Ürünler</h3>
+
+    <div class="row">
+        <h3 class="card-header card-body">Ürün Ekle</h3>
+
+
+        <div class="doll-md-8">
+            <label class="col-form-label">Ürün Adı</label>
+            <input name="adi" class="form-control" type="text" autocomplete="off" placeholder="Ürün adı giriniz" />
+        </div>
+
+
+
+    
+        <div class="doll-md-8">
+            <label class="col-form-label">Ürün stok</label>
+            <input name="stok" class="form-control" type="text" autocomplete="off" placeholder="Ürün stok giriniz" />
+        </div>
+
+
+   
+        <div class="doll-md-8 m-2">
+            <label class="col-form-label">Ürün fiyat</label>
+            <input name="fiyat" class="form-control" type="text" autocomplete="off" placeholder="Ürün fiyat giriniz" />
+        </div>
+
+        <div class="doll-md-8 m-2">
+            <input class="btn btn-success" type="submit" />
+        </div>
+
+
+    </div>
+
+</form>
+<p class="text-danger">@ViewBag.sonuc</p>
+

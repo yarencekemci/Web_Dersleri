@@ -1,5 +1,6 @@
 <Solution>
   <Folder Name="/KatmanliMimariler/">
+    <File Path="KatmanliMimariler.txt" />
     <Project Path="Ders4_1_BLL/Ders4_1_BLL.csproj" Id="53c6a72c-8326-4e58-9920-25df82cd0c0a" />
     <Project Path="Ders4_1_Core/Ders4_1_Core.csproj" Id="1c1ce507-0195-4b0f-a4e1-945ee34f998b" />
     <Project Path="Ders4_1_DLL/Ders4_1_DLL.csproj" Id="9ce10eed-09d9-4eba-9093-3eedc0eb9d35" />

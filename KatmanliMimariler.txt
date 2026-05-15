@@ -1,0 +1,10 @@
+Core=> Çekirdek, temel, ana. Bütün katmanların ortak özelliklerini ve işlevlerini içeren katman.
+
+DLL=>Database Logic Layer(DLL) ya da Data Access Layer(DAL) olarakta bilinir, Veritabanı Erişim Katmanı. Veritabanı işlemlerini gerçekleştiren katman. Veritabanı ile ilgili işlemleri yapar, veritabanına bağlanır, sorguları çalıştırır ve sonuçları döndürür.
+
+BLL=> Business Logic Layer(BLL) ya da Business Layer olarakta bilinir, İş Mantığı Katmanı. Uygulamanın iş mantığını içeren katman. Veritabanından gelen verileri işler, iş kurallarını uygular ve sonuçları döndürür. Projeni en önemli katmanıdır, çünkü uygulamanın işlevselliğini sağlar. Projenin diğer katmanları bu katmana bağlıdır (Web, Web API hariç), bu katman da diğer katmanlara bağlı değildir. 
+
+Web=> Web Katmanı, kullanıcı arayüzünü içeren katman. Kullanıcıların uygulama ile etkileşimde bulunduğu katman. Web API, MVC, Razor Pages gibi teknolojilerle geliştirilir. BLL katmanı burda kullanılır, DLL katmanı kullanılmaz. Web API ise bu katmanda kullanılır/çağrılır. 
+
+API=>Web API, RESTful hizmetler sunmak için kullanılan bir teknolojidir. Web API, HTTP protokolü üzerinden veri alışverişi yapar ve genellikle JSON formatında veri döndürür. Web API, diğer uygulamalar tarafından kullanılabilir ve genellikle mobil uygulamalar veya diğer web uygulamaları tarafından tüketilir.
+

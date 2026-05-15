@@ -6,4 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Ders4_1_BLL\Ders4_1_BLL.csproj" />
+  </ItemGroup>
+
 </Project>
